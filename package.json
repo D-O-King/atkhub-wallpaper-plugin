@@ -1,0 +1,13 @@
+{
+  "name": "atk-hub-wallpaper-plugin",
+  "version": "1.0.0",
+  "productName": "ATK HUB Wallpaper",
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "description": "Local wallpaper player for ATK HUB on Windows",
+  "scripts": {
+    "test": "node --test test/*.test.cjs",
+    "check": "node tools/check.cjs",
+    "build": "powershell -NoProfile -ExecutionPolicy Bypass -File build/build.ps1"
+  },
+  "engines": { "node": ">=18" }
+}

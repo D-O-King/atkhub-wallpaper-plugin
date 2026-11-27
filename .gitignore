@@ -1,0 +1,14 @@
+.reference/
+.work/
+dist/
+node_modules/
+*.log
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+# Local validation screenshot containing third-party wallpaper artwork.
+docs/images/properties-chinese.png
